@@ -1,21 +1,23 @@
 # Yacoub's Kodi Repository
 
-This repository hosts the installable files for Yacoub's Kodi addons.
+Official repository for Yacoub's Subtitle Addons.
 
 ## Installation
 
-1. In Kodi, go to **Settings → File Manager → Add source**
-2. Enter path: `https://yacoubs00.github.io/`
-3. Name it: `Yacoub Repo`
-4. Go to **Settings → Add-ons → Install from zip file**
-5. Select `Yacoub Repo` source
-6. Install `repository.yacoubs.subs-1.0.0.zip`
+1. Download: [repository.yacoubs-1.0.0.zip](https://yacoubs00.github.io/repository.yacoubs-1.0.0.zip)
+2. In Kodi, go to Settings → Add-ons → Install from zip file
+3. Select the downloaded zip file
+4. Browse available addons from the repository
 
-## Repository Contents
+## Addons
 
-- **repository.yacoubs.subs** - Repository addon for automatic updates
-- **Yacoub's Subs** - Multi-provider subtitle addon
+- **Yacoub's Subs v7.0.0** - Multi-source subtitle addon
+  - Restored all providers from v6.3.0 (12 total providers)
+  - Users must configure their own API keys for OpenSubtitles, SubDL, and SubSource in addon settings
+  - Based on a4kSubtitles by a4k-openproject
+  - Author: Yacoub00
 
-## Source Code
+## Links
 
-The source code for the addons is maintained at: [yacoubs-subtitles](https://github.com/Yacoubs00/yacoubs-subtitles)
+- Repository URL: `https://yacoubs00.github.io/`
+- GitHub: [Yacoubs00/yacoubs00.github.io](https://github.com/Yacoubs00/yacoubs00.github.io)
