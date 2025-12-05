@@ -6,9 +6,9 @@
         </requires>
         <extension point="xbmc.addon.repository" name="Yacoub's Repository">
             <dir>
-                <info compressed="false">https://yacoubs00.github.io/addons.xml</info>
-                <checksum>https://yacoubs00.github.io/addons.xml.md5</checksum>
-                <datadir zip="true">https://yacoubs00.github.io/</datadir>
+                <info compressed="false">https://raw.githubusercontent.com/Yacoubs00/yacoubs00.github.io/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Yacoubs00/yacoubs00.github.io/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Yacoubs00/yacoubs00.github.io/main/</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
