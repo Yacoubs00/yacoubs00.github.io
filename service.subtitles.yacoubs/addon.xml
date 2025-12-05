@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="service.subtitles.yacoubs" name="Yacoub's Subs" version="1.1.0" provider-name="Yacoub">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" />
+      <import addon="vfs.libarchive" optional="true" />
+    </requires>
+    <extension point="xbmc.subtitle.module" library="main.py" />
+    <extension point="xbmc.service" library="main_service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Yacoub's Subs - Multi-Source Subtitles</summary>
+        <description lang="en">Add your API keys in settings to use OpenSubtitles, SubDL, and SubSource providers. This addon is based on a4kSubtitles by a4k-openproject. Author: Yacoub00.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>MIT License</license>
+        <website>https://github.com/yacoub-subs</website>
+        <source>https://github.com/yacoub-subs/yacoubs-subs</source>
+        <email>yacoub.subs@gmail.com</email>
+        <assets>
+            <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart></assets>
+        <news>v1.1.0: Fixed - Removed default API keys from settings. Users must configure their own API keys for OpenSubtitles, SubDL, and SubSource.</news>
+    </extension>
+</addon>
