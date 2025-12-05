@@ -22,7 +22,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="service.subtitles.yacoubs" name="Yacoub's Subs" version="6.3.0" provider-name="Yacoub">
+    <addon id="service.subtitles.yacoubs" name="Yacoub's Subs" version="6.4.0" provider-name="Yacoub">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
@@ -40,9 +40,9 @@ Your ultimate subtitle solution with extensive language support:
 ✅ Movies, TV Shows, and Anime
 ✅ Specialized Arabic Anime support (28+ subs per episode)
 
-Powered by 5+ providers: OpenSubtitles, SubDL, SubSource, Podnapisi, YIFY
+Powered by 3 premium providers: OpenSubtitles, SubDL, SubSource
 
-Features: 180+ subtitles per search, automatic language detection from Kodi settings, fast and reliable.
+Features: Fast and reliable subtitle search with user-configurable API credentials.
 
 Created and maintained by Yacoub.
         </description>
@@ -56,7 +56,7 @@ Created and maintained by Yacoub.
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <news>v6.3.0: Removed AnimeTosho (provides torrents not subtitle files). 6 working providers: OpenSubtitles, Podnapisi, SubDL, SubSource, YIFY, Kitsunekko, Witanime. All core features work!</news>
+            <news>v6.4.0: Streamlined to 3 premium providers (OpenSubtitles, SubDL, SubSource) with user-configurable API credentials. Enter your own API keys in settings for full access.</news>
         </extension>
     </addon>
 </addons>
