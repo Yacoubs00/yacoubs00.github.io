@@ -11,9 +11,9 @@ Official repository for Yacoub's Subtitle Addons.
 
 ## Addons
 
-- **Yacoub's Subs v1.0.0** - Multi-source subtitle addon
-  - All providers from original v6.3.0 (12 total providers)
-  - Users must configure their own API keys for OpenSubtitles, SubDL, and SubSource in addon settings
+- **Yacoub's Subs v1.1.0** - Multi-source subtitle addon
+  - 12 providers for movies, TV shows, and anime
+  - Users must configure their own API keys for OpenSubtitles, SubDL, and SubSource
   - Based on a4kSubtitles by a4k-openproject
   - Author: Yacoub00
 
