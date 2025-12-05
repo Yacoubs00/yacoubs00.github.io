@@ -22,7 +22,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="service.subtitles.yacoubs" name="Yacoub's Subs" version="7.0.0" provider-name="Yacoub">
+    <addon id="service.subtitles.yacoubs" name="Yacoub's Subs" version="1.0.0" provider-name="Yacoub">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
@@ -43,7 +43,7 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <news>v7.0.0: Restored all providers from v6.3.0. Removed hardcoded API keys - users must add their own API keys for OpenSubtitles, SubDL, and SubSource in addon settings.</news>
+            <news>v1.0.0: Initial release with all providers from v6.3.0. Removed hardcoded API keys - users must add their own API keys for OpenSubtitles, SubDL, and SubSource in addon settings.</news>
         </extension>
     </addon>
 </addons>
